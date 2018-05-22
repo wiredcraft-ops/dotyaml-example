@@ -1,0 +1,12 @@
+---
+# The env vars will be used for the commands
+envs:
+  ENV_1: 1
+  ENV_2: "string"
+
+# commands to run
+commands:
+  - bundle install
+  - jekyll build
+
+destination: _site
